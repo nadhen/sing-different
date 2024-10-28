@@ -1,0 +1,27 @@
+.header-navbar {
+    height: 80px;
+    background: rgba(111, 104, 143, 0.5);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 992px) {
+        display: flex;
+    }
+}
+
+.header-navbar__link {
+    color: white;
+    padding: 10px;
+}
+
+.header-navbar__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-navbar__item {
+    padding: 40px;
+}

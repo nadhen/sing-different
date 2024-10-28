@@ -1,0 +1,77 @@
+/*Variables*/
+@import './variables/fonts';
+
+/*Components*/
+@import './components/headline';
+@import './components/button';
+@import './components/form';
+@import './components/text';
+@import './components/audio';
+@import './components/scrolltotop';
+
+/*Layouts*/
+@import './layout/splashscreen';
+@import './layout/logo';
+
+@import './layout/header/header';
+@import './layout/header/contact';
+@import './layout/header/navbar';
+
+@import './layout/footer/footer';
+@import './layout/footer/bottom';
+@import './layout/footer/contact';
+@import './layout/footer/navigation';
+@import './layout/footer/newsletter';
+@import './layout/footer/socials';
+
+/*Modules*/
+@import './modules/hero-banner';
+@import './modules/benefits';
+@import './modules/introduction';
+@import './modules/events';
+@import './modules/rating';
+@import './modules/work';
+@import './modules/legal';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #6F688F;
+  background-color: #E5E3EE;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+
+  @media screen and (min-width: 992px) {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    margin-top: -80px;
+  }
+}

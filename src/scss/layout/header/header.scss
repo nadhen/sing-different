@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    z-index: 1;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        @media screen and (min-width: 992px) {
+            justify-content: space-between;
+        }
+    }
+}

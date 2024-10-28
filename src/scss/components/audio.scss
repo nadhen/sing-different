@@ -1,0 +1,96 @@
+.audio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.audio--playing {
+    margin-top: 110px;
+}
+
+.audio audio {
+    display: none;
+}
+
+.audio__details {
+    width: 290px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #6F688F;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 0 10px;
+    transition: all 0.5s ease-in-out;
+    height: 91px;
+    position: absolute;
+    bottom: 100%;
+}
+
+.audio__controls {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    max-width: 320px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.audio__button {
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.audio__button--hidden {
+    opacity: 0; 
+    pointer-events: none;
+}
+
+.audio__details--hidden {
+    height: 0;
+}
+
+.audio__title {
+    font-family: 'Lato';
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.audio__artist {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.audio__bar-outer {
+    background-color: #E5E3EE;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.audio__bar-inner {
+    background-color: #322B55;
+    width: 0;
+    height: 4px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.audio__time-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

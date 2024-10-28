@@ -1,0 +1,39 @@
+h1, .h1 {
+    font-size: 40px;
+    font-family: 'Kalam', sans-serif;
+    color: #6F688F;
+    line-height: 50px;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 992px) {
+        line-height: 68px;
+        font-size: 60px;
+    }
+}
+
+h2, .h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'Kalam', sans-serif;
+    color: #6F688F;
+    font-weight: normal;
+
+    @media screen and (min-width: 992px) {
+        font-size: 36px;
+    }
+}
+
+h3, .h3 {
+    color: #6F688F;
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: normal;
+
+    @media screen and (min-width: 992px) {
+        font-size: 48px;
+        line-height: 53px;
+    }
+}

@@ -1,0 +1,9 @@
+.hero-banner {
+    &__image {
+        width: 100%;
+        max-width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    }
+}
+

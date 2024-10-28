@@ -1,0 +1,39 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+
+    @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    & > div {
+        @media screen and (min-width: 992px) {
+            width: 50%;
+        }
+    }
+
+    &__description {
+        color: #6F688F;
+        font-size: 18px;
+        line-height: 25px;
+
+        @media screen and (min-width: 992px) {
+            font-size: 23px;
+            line-height: 28px;
+        }
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+
+    .h1 {
+        max-width: 600px;
+    }
+}
